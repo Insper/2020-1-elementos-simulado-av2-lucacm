@@ -1,0 +1,12 @@
+# nome | quantidade de testes | us de execucao
+# us -> clock = /20
+
+##########################
+# conceito C
+##########################
+
+pseudo.nasm 2 1000
+fillMem.nasm 1 1000
+SWeLED.nasm 1 1000
+fibonacci.nasm 1 1000
+

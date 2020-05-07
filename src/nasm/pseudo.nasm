@@ -19,8 +19,7 @@ nop
 else:
 leaw $2, %A
 movw %A, %D
-leaw $0, %A
-subw %A, %D, %D
+negw %D
 leaw $R6, %A
 movw %D, (%A)
 leaw $end, %A
